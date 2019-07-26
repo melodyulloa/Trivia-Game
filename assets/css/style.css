@@ -1,0 +1,44 @@
+
+
+#main-content{
+background-color: rgb(28, 28, 172);
+max-width:960px;
+margin-left: 300px; 
+color:white;
+text-align: center;
+
+}
+body{
+    background-image: url(https://rukminim1.flixcart.com/image/832/832/j1fb98w0/poster/5/z/h/medium-rk5012-radhakripa-dragon-ball-z-poster-original-imaesybgaekxaryf.jpeg?q=70);
+}
+
+header{
+    color:white;
+    font-weight:bold;
+    font-size: 40px;
+}
+.choice{
+    border: 1px solid lightgray;
+    padding:10px;
+    border-radius:4px;
+    cursor: pointer;
+    width:300px;
+    background-color: blue;
+    color:white;
+}
+#dGame{
+    background-color:grey;
+    margin:0 auto;
+    margin-right: 600px;
+    filter: opacity(80%);
+}
+#time{
+    background-color: grey;
+    padding:2px;
+    margin-right: 600px;
+    filter:opacity(80%);
+}
+
+#container{
+   justify-content: center;
+}
