@@ -15,18 +15,22 @@
     <div id ="incorrectAnswers"></div>
     <div id ="timer"></div>
     
+  
 
     <div id = "main-content">
         <h1>Speedy Trivia Time</h1>
         <br>
-        <button class ="btn btn-primary">Start Game</button>
+        <button class ="btn btn-primary"  onclick="startGame(this)">Start Game</button>
         </div>
          <br>
          <br>
          <br>
-         <div id="container">
+         <div id="container" >
         <h2 id="time"></h2>
-
+        <div id="feedback-box">
+            <p id="feedback"></p>
+            <p id="correctAns-wrap">Correct Answer: <span id="correctAns"></span></p>
+        </div>
         <div id="dGame"></div>
         </div>
     

@@ -42,3 +42,12 @@ header{
 #container{
    justify-content: center;
 }
+#feedback-box{
+    width: 382px;
+    background-color: blue;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    display:none;
+}
